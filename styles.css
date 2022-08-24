@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* * { обнулить все отступы
+padding: 0;
+margin: 0;
+} */
+
 body {
     background-color: rgb(236, 236, 236);
     color: rgb(0, 0, 0);
@@ -91,8 +96,16 @@ box-shadow: 3px 3px 10px;
     background: darkgray;
 }
 
+.bg-blue {
+    background: rgb(129, 192, 194);
+}
+
 .mr-top {
     margin-top: 20px;
+}
+
+.mr-bot {
+    margin-bottom: 20px;
 }
 
 .card {
@@ -103,5 +116,42 @@ box-shadow: 3px 3px 10px;
 }
 
 .card h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+
+.list {
+    padding: 0 10px;
+    /* если надо убрать нумерацию списка */
+    list-style: none; 
+}
+
+/* к тегам li можно обратиься так */
+/* .list li { 
+    color: dimgray;
+    margin-bottom: 10px;
+} */
+
+/* к тегам ли можно обратиься и так */
+.card li { 
+    color: rgb(254, 246, 246);
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(254, 246, 246);
+}
+
+.table-1 {
+    /* ширина во весь экран */
+    width: 100%;
+}
+
+.table-1 td {
+    padding-bottom: 10px;
+}
+
+/* можно обратиться через иерархию е еонкретной строчке в таблице */
+/* .table-1 .temp td {
+    color: white;
+} */
+
+/* .temp-1 {
+    color: white;
+} */

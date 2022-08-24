@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="info">
+<div class="container">
+    <div class="info">
             <img src="Avatar portfolio.jpg" alt="img" class="avatar">
             <h1>Цыганков Игорь</h1>
             <p>Работаю в филармонии</p>
@@ -39,24 +39,38 @@
 
     <div class="card bg-yellow">
         <h2>Опыт работы</h2>
-        <table border="4">
-            <thead>
+        <!--<table border="4"> border="4" это обычная рамка в html стиле -->
+        <!-- <table border="4">  -->
+        <table class="table-1">
+
+            <!-- хедеры заголовки можно не делать -->
+            <!-- <thead>
                 <tr>
                     <th>Организация</th>
                     <th>Должность</th>
                     <th>Год</th>
                 </tr>
-            </thead>
+            </thead> -->
             <tbody>
+                
+                <!-- <tr class="temp"> можно обратиться через иерархию 
+                    к конкретной строке в таблице -->
                 <tr>
-                    <td>Филармония</td>
+                    <!-- можно обратиться к конкретному слову с помощью класса -->
+                    <!-- <td class="temp-1">Филармония им.Г.Ф. Пономаренко</td> -->
+                    <td>Филармония им.Г.Ф. Пономаренко</td>
                     <td>Солист</td>
                     <td>2016 по настоящее время</td>
                 </tr>
                 <tr>
-                    <td>Музыкальная школа</td>
+                    <td>Музыкальная школа МЭЦ г.Краснодар</td>
                     <td>Преподаватель</td>
                     <td>2016 по настоящее время</td>
+                </tr>
+                <tr>
+                    <td>Филармония им.Г.Ф. Пономаренко</td>
+                    <td>Грузчик</td>
+                    <td>2018 по настоящее время</td>
                 </tr>
             </tbody>
         </table>
@@ -102,6 +116,15 @@
         <a target="_blank" href="youtube.html" alt="переход на страницу">Посмотреть учеников</a>
     </div>
 
+    <div class="card bg-blue">
+        <h2>Образование</h2>
+        <ol class="list">
+            <li>Лицей при РГК</li>
+            <li>Консерватория РГК</li>
+            <li>Ассистентура РГК</li>
+        </ol>
+    </div>
+
     <hr color="green" noshade="1">
 
     <!-- <h2 class="card bg-green">Связаться со мной</h2> 
@@ -145,6 +168,8 @@
 </div>
 
 <div style="margin-bottom: 500px;"></div>
+
+
 
 </body>
 </html>
