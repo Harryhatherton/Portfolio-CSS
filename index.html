@@ -11,18 +11,27 @@
 <div class="container">
     <div class="info">
             <img src="Avatar portfolio.jpg" alt="img" class="avatar">
+        <div class="info-text">
             <h1>Цыганков Игорь</h1>
             <p>Работаю в филармонии</p>
             <p>Преподаю в музыкальной школе</p>
 
-        <div class="card bg-grey mr-top">
+        <!-- <div class="card bg-grey mr-top">
             <h4>Мои социальные сети</h4>
         
             <a target="_blank" href="https://www.youtube.com/channel/UClkgEkRRql6tqMiydzocVyg">Youtube</a>
             |
             <a target="_blank" href="https://vk.com/id129302157">Вконтакте</a>
+        </div> -->
         </div>
+    </div>
 
+    <div class="card bg-grey mr-top">
+        <h4>Мои социальные сети</h4>
+    
+        <a target="_blank" href="https://www.youtube.com/channel/UClkgEkRRql6tqMiydzocVyg">Youtube</a>
+        |
+        <a target="_blank" href="https://vk.com/id129302157">Вконтакте</a>
     </div>
         
         <!-- <hr color="green" noshade="1" size="7"> -->
@@ -125,39 +134,59 @@
         </ol>
     </div>
 
-    <hr color="green" noshade="1">
+    <div>
+        <h3 class="h3">Полезные ссылки</h3>
+        <ul class="links">
+            <li><a target="_blank" href="https://www.youtube.com">Youtube</a></li>
+            <li><a target="_blank" href="https://developer.mozilla.org/ru/">Mozilla</a></li>
+            <li><a target="_blank" href="https://www.google.ru">Google</a></li>
+        </ul>
+    </div>
+
+    <hr color="white" noshade="1">
 
     <!-- <h2 class="card bg-green">Связаться со мной</h2> 
         классы можно переиспользовать -->
-    <h2>Связаться со мной</h2>
-    <form action="/">
-        <label for="name">Имя</label>
-        <input type="text" id="name"
-        placeholder="Введите имя...">
-        <br>
-        <br>
-        <label for="surname">Фамилия</label>
-        <input type="text" id="surname"
-        placeholder="Введите фамилию...">
-        <br>
-        <br>
-        <label for="email">email</label>
-        <input type="email" id="email"
-        placeholder="Введите email...">
-        <br>
-        <br>
-        <label for="textarea">Сообщение</label>
-        <textarea id="textarea" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <input type="submit" value="Отправить"> 
-    </form>
-
+    <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+    <div class="row">     
+        <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name"
+            placeholder="Введите имя...">
+        </div>
+            <!-- <br> -->
+            <!-- <br> -->
+        <div class="form-group">
+            <label for="surname">Фамилия</label>
+            <input type="text" id="surname"
+            placeholder="Введите фамилию...">
+        </div>
+            <!-- <br> -->
+            <!-- <br> -->
+        <div class="form-group">
+            <label for="email">email</label>
+            <input type="email" id="email"
+            placeholder="Введите email...">
+        </div>
+    </div>    
+            <!-- <br> -->
+            <!-- <br> -->
+        <div class="form-group">
+            <label for="textarea">Сообщение</label>
+            <textarea id="textarea" cols="60" rows="5"></textarea>
+        </div>
+            <br>
+            <br>
+            <input class="btn" type="submit" value="Отправить"> 
+        </form>
+    </div>
     
 
-    <hr color="green" noshade="1">
-    <br>
-    <br>
+    <!-- <hr color="white" noshade="1"> -->
+    <!-- <br> -->
+    <!-- <br> -->
 
     <!-- <div class="box-model">
         <div></div>
@@ -165,7 +194,14 @@
         <div></div>
         <div></div>
     </div> -->
+
+    <div class="position">
+        <div class="box"><h4>Навигация по сайту</h4></div>
+    </div>
+
 </div>
+
+
 
 <div style="margin-bottom: 500px;"></div>
 
